@@ -56,11 +56,11 @@ export default {
 
 
 <template>
-    <div class="max-w-3xl mx-auto mt-5">
-        <div class="bg-white-20 border border-white/10 backdrop-blur-md backdrop-saturate-100 rounded-3xl shadow-lg p-6">
-            <div class="text-center m-6">
-                <h2 class="text-6xl font-bold text-white mb-3">Cripto Cotizador</h2>
-                <div class="text-xl font-light text-white/60">
+    <div class="max-w-3xl mx-auto mt-3">
+        <div class="bg-white-20 border border-white/10 backdrop-blur-md backdrop-saturate-100 rounded-3xl shadow-lg p-4">
+            <div class="text-center m-4">
+                <h2 class="text-5xl font-bold text-white mb-3">Cripto Cotizador</h2>
+                <div class="text-md font-light text-white/60">
                     Desarrollado por:
                     <a 
                         href="https://github.com/rick672" 
@@ -72,8 +72,8 @@ export default {
                     </a>
                 </div>
             </div>
-            <div class="h-px bg-white/30 my-8"></div>
-            <div class="flex flex-wrap transition-all duration-300 ease-in-out text-xl">
+            <div class="h-px bg-white/30 my-4"></div>
+            <div class="flex flex-wrap transition-all duration-300 ease-in-out text-sm">
                 <!-- Formulario -->
                 <div
                     :class="[

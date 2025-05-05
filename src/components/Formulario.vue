@@ -65,7 +65,7 @@ export default {
 
                 <button 
                     type="submit" 
-                    class="w-full bg-amber-500 text-2xl py-2 px-4 rounded-md hover:bg-amber-400 transition-colors cursor-pointer"
+                    class="w-full bg-amber-500 text-lg py-1 px-2 rounded-md hover:bg-amber-400 transition-colors cursor-pointer"
                 >
                     {{ loading ? 'Cargando...' : 'Cotizar' }}
                 </button>
