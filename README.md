@@ -1,29 +1,42 @@
-# 007_criptocotizador
+# 💰 CriptoCotizador
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicación simple y responsiva para cotizar criptomonedas en tiempo real, desarrollada con **Vue 3** y **Vite**.
 
-## Recommended IDE Setup
+🔗 **Demo en vivo:** [cripto-cotizador-snowy.vercel.app](https://cripto-cotizador-snowy.vercel.app/)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+## 🖼️ Vista Previa
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### 🔍 Selección de moneda y criptomoneda
+![Buscar Cripto](./public/cripto.png)
 
-## Project Setup
+### 📊 Resultados de la cotización
+![Resultados Cotización](./public/cripto1.png)
 
-```sh
+---
+
+## 🧰 Tecnologías Utilizadas
+
+- ⚙️ [Vue 3](https://vuejs.org/)
+- ⚡ [Vite](https://vitejs.dev/)
+- 🎨 [TailwindCSS](https://tailwindcss.com/) (opcional)
+- 📡 [CryptoCompare API](https://min-api.cryptocompare.com/) (u otra API pública de criptomonedas)
+
+---
+
+## 🚀 Funcionalidades
+
+- ✅ Selección de moneda local y criptomoneda
+- 📈 Cotización en tiempo real
+- 💻 Interfaz moderna y adaptable a móviles
+
+---
+
+## ⚙️ Instalación y Ejecución Local
+
+```bash
+git clone https://github.com/rick672/Cripto-Cotizador.git
+cd Cripto-Cotizador
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
